@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Merite.Projects": {
+      "path": "Merite.Projects.abpmdl.json"
+    }
+  }
+}

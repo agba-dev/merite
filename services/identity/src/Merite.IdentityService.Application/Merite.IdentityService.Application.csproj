@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Merite.IdentityService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Account.Application" Version="9.0.0" />
+        <PackageReference Include="Volo.Abp.AutoMapper" Version="9.0.0" />
+        <PackageReference Include="Volo.Abp.Ddd.Application" Version="9.0.0" />
+        <PackageReference Include="Volo.Abp.Identity.Application" Version="9.0.0" />
+        <ProjectReference Include="..\Merite.IdentityService.Application.Contracts\Merite.IdentityService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\Merite.IdentityService.Domain\Merite.IdentityService.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

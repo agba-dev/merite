@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Merite.Administration</RootNamespace>
+        <PreserveCompilationReferences>true</PreserveCompilationReferences>
+        <UserSecretsId>Merite.Administration-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..\..\..</DockerfileContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\shared\Merite.Microservice.Shared\Merite.Microservice.Shared.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\Merite.ServiceDefaults\Merite.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\..\..\identity\src\Merite.IdentityService.Application.Contracts\Merite.IdentityService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\..\identity\src\Merite.IdentityService.EntityFrameworkCore\Merite.IdentityService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\..\saas\src\Merite.SaaS.Application.Contracts\Merite.SaaS.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\src\Merite.Administration.HttpApi\Merite.Administration.HttpApi.csproj" />
+        <ProjectReference Include="..\..\src\Merite.Administration.Application\Merite.Administration.Application.csproj" />
+        <ProjectReference Include="..\..\src\Merite.Administration.EntityFrameworkCore\Merite.Administration.EntityFrameworkCore.csproj" />
+    </ItemGroup><ItemGroup>
+      <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Merite.IdentityService": {
+      "path": "Merite.IdentityService.abpmdl.json"
+    }
+  }
+}

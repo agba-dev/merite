@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Merite.Administration.Domain.Shared": {
+      "path": "src/Merite.Administration.Domain.Shared/Merite.Administration.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.Domain": {
+      "path": "src/Merite.Administration.Domain/Merite.Administration.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.Application.Contracts": {
+      "path": "src/Merite.Administration.Application.Contracts/Merite.Administration.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.Application": {
+      "path": "src/Merite.Administration.Application/Merite.Administration.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.EntityFrameworkCore": {
+      "path": "src/Merite.Administration.EntityFrameworkCore/Merite.Administration.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.MongoDB": {
+      "path": "src/Merite.Administration.MongoDB/Merite.Administration.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.HttpApi": {
+      "path": "src/Merite.Administration.HttpApi/Merite.Administration.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.HttpApi.Client": {
+      "path": "src/Merite.Administration.HttpApi.Client/Merite.Administration.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.Administration.TestBase": {
+      "path": "test/Merite.Administration.TestBase/Merite.Administration.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.Administration.EntityFrameworkCore.Tests": {
+      "path": "test/Merite.Administration.EntityFrameworkCore.Tests/Merite.Administration.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.Administration.MongoDB.Tests": {
+      "path": "test/Merite.Administration.MongoDB.Tests/Merite.Administration.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.Administration.Domain.Tests": {
+      "path": "test/Merite.Administration.Domain.Tests/Merite.Administration.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.Administration.Application.Tests": {
+      "path": "test/Merite.Administration.Application.Tests/Merite.Administration.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.Administration.HttpApi.Host": {
+      "path": "host/Merite.Administration.HttpApi.Host/Merite.Administration.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Merite.Administration.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Merite.Administration.HttpApi.Client.ConsoleTestApp/Merite.Administration.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.Administration.IdentityServer": {
+      "path": "host/Merite.Administration.IdentityServer/Merite.Administration.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Merite.Administration.Host.Shared": {
+      "path": "host/Merite.Administration.Host.Shared/Merite.Administration.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

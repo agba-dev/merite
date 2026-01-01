@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Merite.Projects</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.AutoMapper" Version="9.0.0" />
+        <PackageReference Include="Volo.Abp.Ddd.Application" Version="9.0.0" />
+        <ProjectReference Include="..\Merite.Projects.Application.Contracts\Merite.Projects.Application.Contracts.csproj" />
+        <ProjectReference Include="..\Merite.Projects.Domain\Merite.Projects.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Merite.SaaS</RootNamespace>
+        <PreserveCompilationReferences>true</PreserveCompilationReferences>
+        <UserSecretsId>Merite.SaaS-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..\..\..</DockerfileContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+        <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\shared\Merite.Microservice.Shared\Merite.Microservice.Shared.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\Merite.ServiceDefaults\Merite.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\..\..\administration\src\Merite.Administration.EntityFrameworkCore\Merite.Administration.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\src\Merite.SaaS.HttpApi\Merite.SaaS.HttpApi.csproj" />
+        <ProjectReference Include="..\..\src\Merite.SaaS.Application\Merite.SaaS.Application.csproj" />
+        <ProjectReference Include="..\..\src\Merite.SaaS.EntityFrameworkCore\Merite.SaaS.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+</Project>

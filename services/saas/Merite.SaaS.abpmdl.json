@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Merite.SaaS.Domain.Shared": {
+      "path": "src/Merite.SaaS.Domain.Shared/Merite.SaaS.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.Domain": {
+      "path": "src/Merite.SaaS.Domain/Merite.SaaS.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.Application.Contracts": {
+      "path": "src/Merite.SaaS.Application.Contracts/Merite.SaaS.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.Application": {
+      "path": "src/Merite.SaaS.Application/Merite.SaaS.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.EntityFrameworkCore": {
+      "path": "src/Merite.SaaS.EntityFrameworkCore/Merite.SaaS.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.MongoDB": {
+      "path": "src/Merite.SaaS.MongoDB/Merite.SaaS.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.HttpApi": {
+      "path": "src/Merite.SaaS.HttpApi/Merite.SaaS.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.HttpApi.Client": {
+      "path": "src/Merite.SaaS.HttpApi.Client/Merite.SaaS.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Merite.SaaS.TestBase": {
+      "path": "test/Merite.SaaS.TestBase/Merite.SaaS.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.SaaS.EntityFrameworkCore.Tests": {
+      "path": "test/Merite.SaaS.EntityFrameworkCore.Tests/Merite.SaaS.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.SaaS.MongoDB.Tests": {
+      "path": "test/Merite.SaaS.MongoDB.Tests/Merite.SaaS.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.SaaS.Domain.Tests": {
+      "path": "test/Merite.SaaS.Domain.Tests/Merite.SaaS.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.SaaS.Application.Tests": {
+      "path": "test/Merite.SaaS.Application.Tests/Merite.SaaS.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.SaaS.HttpApi.Host": {
+      "path": "host/Merite.SaaS.HttpApi.Host/Merite.SaaS.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Merite.SaaS.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Merite.SaaS.HttpApi.Client.ConsoleTestApp/Merite.SaaS.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Merite.SaaS.IdentityServer": {
+      "path": "host/Merite.SaaS.IdentityServer/Merite.SaaS.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Merite.SaaS.Host.Shared": {
+      "path": "host/Merite.SaaS.Host.Shared/Merite.SaaS.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
